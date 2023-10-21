@@ -4,11 +4,13 @@
 
 import 'dart:io';
 
-import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:photo_manager/photo_manager.dart';
 import 'package:video_player/video_player.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/extended_image.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/gesture/utils.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/utils.dart';
 
 import '../../delegates/asset_picker_viewer_builder_delegate.dart';
 import 'locally_available_builder.dart';

@@ -5,12 +5,15 @@
 import 'dart:async';
 import 'dart:math' as math;
 
-import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart';
 import 'package:flutter/services.dart';
 import 'package:photo_manager/photo_manager.dart';
 import 'package:provider/provider.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/extended_image.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/gesture/gesture.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/gesture/page_view/gesture_page_view.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/utils.dart';
 
 import '../constants/custom_scroll_physics.dart';
 import '../constants/enums.dart';

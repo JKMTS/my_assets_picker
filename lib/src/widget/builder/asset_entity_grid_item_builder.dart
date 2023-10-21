@@ -2,9 +2,10 @@
 // Use of this source code is governed by an Apache license that can be found
 // in the LICENSE file.
 
-import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/extended_image.dart';
+import 'package:wechat_assets_picker/src/custom_extended_image/utils.dart';
 
 import '../../internal/singleton.dart';
 import '../../widget/scale_text.dart';
