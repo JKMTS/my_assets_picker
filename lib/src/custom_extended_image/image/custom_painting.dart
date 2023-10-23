@@ -200,10 +200,8 @@ void paintExtendedImage(
     final Rect sourceRect = customSourceRect ??
         alignment.inscribe(sourceSize, Offset.zero & inputSize);
     if (repeat == ImageRepeat.noRepeat) {
-      debugPrint('inside the if condition of repeat ******************');
       canvas.drawImageRect(image, sourceRect, destinationRect, paint);
     } else {
-      debugPrint('inside the else condition of repeat ******************');
       // final ImageTilingInfo info =
       //     createTilingInfo(repeat, rect, destinationRect, sourceRect);
       // final ImageShader shader = ImageShader(
